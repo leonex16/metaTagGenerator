@@ -2,6 +2,7 @@
   "name": "meta-tag-geterator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://leonex16.github.io/metaTagGenerator/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
@@ -15,6 +16,8 @@
   "scripts": {
     "start": "env BROWSER=google-chrome-unstable react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "serve": "^11.3.2"
   }
 }
