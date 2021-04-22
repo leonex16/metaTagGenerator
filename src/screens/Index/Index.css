@@ -1,0 +1,36 @@
+:root {
+	--primary100: '#24242C';
+	--secondary100: '#48494E';
+	--tertiary100: '#FC0474';
+
+	--primary75: '#24242C75';
+	--secondary75: '#48494E75';
+	--tertiary75: '#FC047475';
+}
+
+/*
+	ORDEN PROPIEDADES
+	1. POSICIONAMIENTO
+	2. DISPLAY Y BOX MODEL
+	3. TIPOGRAFIA
+	4. PROPIEDADES VISUALES
+	5. MISCELANEA
+	DENTRO DE CADA SECCIÓN, EL ORDEN ES ALFABETICAMENTE
+*/
+
+.index {
+	display: flex;
+
+	margin: auto;
+	max-width: 1020px;
+	width: 100%;
+
+	flex-grow: 1;
+}
+
+@media (max-width: 800px) {
+	.index {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}

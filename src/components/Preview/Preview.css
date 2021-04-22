@@ -1,0 +1,13 @@
+.previewCode {
+	/* position: relative; */
+	height: 100%;
+	width: 100%;
+}
+.previewCodePre {
+	/* position: fixed; */
+	white-space: pre-wrap !important;
+}
+.previewCodeCode {
+	overflow: scroll;
+	white-space: pre-wrap !important;
+}

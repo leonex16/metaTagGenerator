@@ -1,0 +1,32 @@
+.input {
+	position: relative;
+	padding: 0.5rem;
+}
+.inputLabel {
+	color: #fff;
+	display: block;
+
+	margin: 0.5rem 0;
+
+	width: 100%;
+}
+.inputCounter {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+
+	font-size: 0.8rem;
+	color: #fff;
+}
+.inputBox {
+	display: block;
+
+	padding: 0.5rem;
+	width: 100%;
+
+	background-color: #fff;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}

@@ -1,0 +1,44 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	justify-content: flex-start;
+
+	min-height: calc(100vh - 60px);
+	padding: 0.5rem;
+}
+.checkMetaTags {
+	color: #fff;
+	margin: 0.5rem 0;
+}
+.checkMetaTagsHeader {
+	margin: 0.5rem 0;
+}
+.checkMetaTagsTitle {
+	font-size: 75%;
+}
+.checkMetaTagsSections {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.checkMetaTagsSections > div {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+
+	width: 50%;
+}
+.checkMetaTagsSections label {
+	font-size: 75%;
+
+	width: 90%;
+}
+.checkMetaTagsSections input {
+	width: 10%;
+}
+.checkMetaTagsSections label,
+.checkMetaTagsSections input {
+	display: inline;
+	text-align: center;
+}

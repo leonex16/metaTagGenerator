@@ -1,0 +1,14 @@
+.Details {
+	margin: 0.5rem 0;
+	padding: 0.5rem;
+
+	border: 1px solid #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.DetailsTitle {
+	color: #fff;
+	font-weight: bold;
+}
+.formMeta {
+}
